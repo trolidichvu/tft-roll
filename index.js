@@ -68,7 +68,7 @@ let roll = function(candidate, desire, remain, rac, count) {
 
 
 let cal = function(n) {
-  if (n % 1000 == 0 && time == 0) console.log(n + ' : ' + (100 * n / lengths) + '%');
+  if (n % 1000 == 0 && time == 0) console.log(n);
   if (n >= lines.length||n>=maxn) process.exit();
   let line = lines[n].trim().split(" ");
   let desire = [];
