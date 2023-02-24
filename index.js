@@ -81,7 +81,7 @@ let cal = function(n) {
     remain.push(parseInt(line[1].split(',')[i]))
   }
 
-  let rac = line[2];
+  let rac = parseInt(line[2]);
 
   let flag = true;
   for (let i = 0; i < desire.length; i++) {
