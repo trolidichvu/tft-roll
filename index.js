@@ -1,6 +1,6 @@
 let fs = require('fs');
 let n =1;
-let maxn=1000000;
+let maxn=10000000;
 let time = 0;
 let maxtime = 25;
 let lines = fs.readFileSync("./test.txt", 'utf-8').trim().split('\n');
