@@ -1,5 +1,5 @@
 let fs = require('fs');
-let n = 0;
+let n =1;
 let maxn=1000000;
 let time = 0;
 let maxtime = 25;
