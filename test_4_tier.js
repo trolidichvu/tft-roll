@@ -1,6 +1,6 @@
 let fs = require('fs');
 
-let desiredArr = fs.readFileSync("./desired.txt", "utf-8").trim().split('\n');
+let desiredArr = fs.readFileSync("./desired_4_tier.txt", "utf-8").trim().split('\n');
 
 for (let i = 0; i < desiredArr.length; i++) {
   console.log(i)
