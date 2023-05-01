@@ -16,6 +16,7 @@ fs.readdirSync(calFolder).forEach(file => {
 
 let result = [];
 for(let i = 0; i< CaseLength ; i++){
+    if(i%100000==0) console.log(i)
     let sum = 0;
     let time = 0;
     for(let j=0;j<arrAll.length;j++){
